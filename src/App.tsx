@@ -216,7 +216,7 @@ function App() {
                   from the local storage on your computer.
                 </p>
                 <p>Supported browsers: Chrome, Edge (GPU required)</p>
-                <p>Note: Chatbot performance is dependent </p>
+                <p>(Note: Chatbot performance is dependent on GPU performance)</p>
               </h2>
             </div>
           </div>
