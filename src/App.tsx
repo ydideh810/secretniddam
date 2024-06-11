@@ -198,7 +198,7 @@ function App() {
               <h1 className="text-3xl font-medium  mb-8 leading-relaxed text-center">
                 You are now using Niddam
               </h1>
-              <h2 className="text-base mb-4 prose">
+              <h2 className="text-base mb-4 prose" style="color:#FFFFFF">
                 Niddam is the ultimate fully private chatbot. Unlike
                 ChatGPT, the models available here run entirely within your
                 browser which means:
