@@ -217,7 +217,7 @@ function App() {
                 </p>
                 <p>Supported browsers: Chrome, Edge (GPU required)</p>
                 <p>(Note: Chatbot performance is dependent on GPU performance)</p>
-                <p>Like Niddam? Try our <a href="https://www.w3schools.com">PRO</a>Version!</p>
+                <p>Like Niddam? Try our <a href="https://www.w3schools.com">PRO</a> Version!</p>
               </h2>
             </div>
           </div>
