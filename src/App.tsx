@@ -200,7 +200,7 @@ function App() {
               </h1>
               <h2 className="text-base mb-4 prose">
                 Niddam is the ultimate fully private chatbot. Unlike
-                ChatGPT, the models available here run entirely within your
+                ChatGPT, the models available here run completely within your
                 browser which means:
                 <ol>
                   <li>Your conversation data never leaves your computer.</li>
@@ -212,11 +212,12 @@ function App() {
                 <p>
                   Note: the first message can take a while to process because
                   the model needs to be fully downloaded to your computer. But
-                  on future visits to this website, the model will load quickly
+                  on future visits, the model will load quickly
                   from the local storage on your computer.
                 </p>
                 <p>Supported browsers: Chrome, Edge (GPU required)</p>
                 <p>(Note: Chatbot performance is dependent on GPU performance)</p>
+                <p>Like Niddam? Try our <a href="https://www.w3schools.com">PRO</a>Version!</p>
               </h2>
             </div>
           </div>
