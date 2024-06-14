@@ -216,6 +216,7 @@ function App() {
                   from the local storage on your computer.
                 </p>
                 <p>Supported browsers: Chrome, Edge (GPU required)</p>
+                <p>Works with Firefox but needs to be enabled manually through the dom.webgpu.enabled flag</p>
                 <p>(Note: Chatbot performance is dependent on GPU performance)</p>
                 <p>Like Niddam? Try our <a href="https://www.w3schools.com">PRO</a> Version!</p>
               </h2>
