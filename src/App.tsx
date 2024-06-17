@@ -28,7 +28,7 @@ function App() {
   const chatHistory = useChatStore((state) => state.chatHistory);
   const setChatHistory = useChatStore((state) => state.setChatHistory);
 
-  const systemPrompt = "You are a very helpful assistant.";
+  const systemPrompt = "You're name is Niddam and you are a very helpful assistant.";
   // Respond in markdown.
 
   const initProgressCallback = (report: webllm.InitProgressReport) => {
@@ -224,7 +224,7 @@ function App() {
   <input type="hidden" name="orderId" value="CustomOrderId" />
   <input type="hidden" name="notificationUrl" value="https://example.com/callbacks" />
   <input type="hidden" name="redirectUrl" value="https://www.niddam.pro/" />
-  <button type="submit" name="choiceKey" value="pro">Buy now</button>
+  <button type="submit" name="choiceKey" value="pro">Pay w/ Bitcoin</button>
 </form>
               </h2>
             </div>
