@@ -219,6 +219,7 @@ function App() {
                 <p>Works with Firefox but needs to be enabled manually through the dom.webgpu.enabled flag</p>
                 <p>(Note: Chatbot performance is dependent on GPU performance)</p>
                 <p>Like Niddam? Try our <a href="https://square.link/u/8kZxvCEH/">PRO</a> Version!</p>
+                <p>Pay with <a href="https://nowpayments.io/payment/?iid=5718454699&paymentId=6360933961">Bitcoin!</a></p>
               </h2>
             </div>
           </div>
