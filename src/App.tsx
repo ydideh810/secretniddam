@@ -218,7 +218,7 @@ function App() {
                 <p>Supported browsers: Chrome, Edge (GPU required)</p>
                 <p>Works with Firefox but needs to be enabled manually through the dom.webgpu.enabled flag</p>
                 <p>(Note: Chatbot performance is dependent on GPU performance)</p>
-                <p>Like Niddam? Try our <a href="https://www.niddam.pro/">PRO</a> Version!</p>
+                <p>Like Niddam? Try our <a href="https://square.link/u/8kZxvCEH/">PRO</a> Version!</p>
               </h2>
             </div>
           </div>
