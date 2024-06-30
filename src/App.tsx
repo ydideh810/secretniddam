@@ -195,30 +195,30 @@ function App() {
               className="mx-auto w-32 rounded-full mb-4 mt-2"
             />
             <div className="max-w-2xl flex flex-col justify-center">
-              <h1 className="text-3xl font-medium  mb-8 leading-relaxed text-center text-purple-400">
+              <h1 className="text-3xl font-medium  mb-8 leading-relaxed text-center text-gray-50">
                 You are now using Niddam
               </h1>
-              <h2 className="text-base mb-4 prose">
+              <h2 className="text-base mb-4 prose text-gray-50">
                 Niddam is the ultimate fully private chatbot. Unlike
                 ChatGPT, the models available here run completely within your
                 browser which means:
                 <ol>
-                  <li>Your conversation data never leaves your computer.</li>
+                  <li className="text-base mb-4 prose text-gray-50">Your conversation data never leaves your computer.</li>
                   <li>
                     After the model is initially downloaded, you can disconnect
                     your WiFi. It will work offline.
                   </li>
                 </ol>
-                <p>
+                <p className="text-base mb-4 prose text-gray-50">
                   Note: the first message can take a while to process because
                   the model needs to be fully downloaded to your computer. But
                   on future visits, the model will load quickly
                   from the local storage on your computer.
                 </p>
-                <p>Supported browsers: Chrome, Edge (GPU required)</p>
-                <p>Works with Firefox but needs to be enabled manually through the dom.webgpu.enabled flag</p>
-                <p>(Note: Chatbot performance is dependent on GPU performance)</p>
-                <p>Like Niddam? Try our <a href="https://square.link/u/8kZxvCEH/">PRO</a> Version!</p>
+                <p className="text-base mb-4 prose text-gray-50">Supported browsers: Chrome, Edge (GPU required)</p>
+                <p className="text-base mb-4 prose text-gray-50">Works with Firefox but needs to be enabled manually through the dom.webgpu.enabled flag</p>
+                <p className="text-base mb-4 prose text-gray-50">(Note: Chatbot performance is dependent on GPU performance)</p>
+                <p className="text-base mb-4 prose text-gray-50">Like Niddam? Try our <a href="https://square.link/u/8kZxvCEH/">PRO</a> Version!</p>
                 <form method="POST" action="https://mainnet.demo.btcpayserver.org/apps/4NvthdA3HKSgykXsYPuc7kGNYtLU/pos">
   <input type="hidden" name="email" value="customer@example.com" />
   <input type="hidden" name="orderId" value="CustomOrderId" />
