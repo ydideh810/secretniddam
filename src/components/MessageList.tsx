@@ -30,7 +30,7 @@ function MessageList() {
 
   return (
     <div className="flex-1 overflow-auto" ref={scrollRef} onScroll={onScroll}>
-      <div className="max-w-3xl mx-auto text-base px-5">
+      <div className="max-w-3xl mx-auto text-base text-gray-50 px-5">
         {chatHistory.map((message, index) => (
           <Message key={index} message={message} />
         ))}
