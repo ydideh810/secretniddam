@@ -11,7 +11,7 @@ function Message({ message }: { message: webllm.ChatCompletionMessageParam }) {
   return (
     <div className="p-4 rounded-lg mt-2">
       <div className="flex items-center gap-x-2">
-        <div className="border p-1 rounded-full text-gray-500">
+        <div className="border p-1 rounded-full text-gray-50">
           {message.role === "assistant" ? <FaHorseHead /> : <FaPerson />}
         </div>
         <div className="font-bold">
