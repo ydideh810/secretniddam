@@ -190,7 +190,7 @@ function App() {
         {chatHistory.length === 0 ? (
           <div className="flex justify-center items-center h-full flex-col overflow-y-scroll">
             <img
-              src="top.png"
+              src="shine.png"
               alt="Niddam"
               className="mx-auto w-32 rounded-full mb-4 mt-2"
             />
@@ -206,7 +206,7 @@ function App() {
                   <li className="text-base mb-4 prose text-gray-50">Your conversation data never leaves your computer.</li>
                   <li>
                     After the model is initially downloaded, you can disconnect
-                    your WiFi. It will work offline.
+                    your WIFI. It will work offline.
                   </li>
                 </ol>
                 <p className="text-base mb-4 prose text-gray-50">
