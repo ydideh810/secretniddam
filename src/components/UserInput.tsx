@@ -20,8 +20,8 @@ function UserInput({
     <div className="p-4 py-2">
       <div className="flex items-center p-2 border rounded-xl shadow-sm">
         <Input
-          className="flex-1 border-none shadow-none focus:ring-0 
-              ring-0 focus:border-0 focus-visible:ring-0 text-base"
+          className="flex-1 border-none shadow-none focus:ring-0
+              ring-0 focus:border-0 focus-visible:ring-0 text-base text-gray-50"
           placeholder={`Message ${MODEL_DESCRIPTIONS[selectedModel].displayName}`}
           onChange={(e) => setUserInput(e.target.value)}
           value={userInput}
@@ -42,7 +42,7 @@ function UserInput({
         href="#"
         onClick={() =>
           alert(
-            "Jiileh Inc. provides this open source software and website as-is and makes no representations or warranties of any kind concerning its accuracy, safety, or suitability. The user assumes full responsibility for any consequences resulting from its use. WhimsyWorks, Inc. expressly disclaims all liability for any direct, indirect, or consequential harm that may result."
+            "Niddam Inc. provides this open source software and website as-is and makes no representations or warranties of any kind concerning its accuracy, safety, or suitability. The user assumes full responsibility for any consequences resulting from its use. WhimsyWorks, Inc. expressly disclaims all liability for any direct, indirect, or consequential harm that may result."
           )
         }
         className="text-xs text-gray-400 hover:underline mt-2 text-right flex justify-end w-full"
