@@ -218,7 +218,7 @@ function App() {
                 <p className="text-base mb-4 prose text-gray-50">Supported browsers: Chrome, Edge (GPU required)</p>
                 <p className="text-base mb-4 prose text-gray-50">Works with Firefox but needs to be enabled manually through the dom.webgpu.enabled flag</p>
                 <p className="text-base mb-4 prose text-gray-50">(Note: Chatbot performance is dependent on GPU performance)</p>
-                <p className="text-base mb-4 prose text-gray-50">Like Niddam? Try our <a className="text-base mb-4 prose text-gray-50" href="https://square.link/u/8kZxvCEH/">PRO</a> Version!</p>
+                <p className="text-base mb-4 prose text-gray-50">Like Niddam? Try our <a className="text-base mb-4 prose text-gray-50" href="https://linktr.ee/Niddam">PRO</a> Version!</p>
                 <form method="POST" action="https://mainnet.demo.btcpayserver.org/apps/4NvthdA3HKSgykXsYPuc7kGNYtLU/pos">
   <input type="hidden" name="email" value="customer@example.com" />
   <input type="hidden" name="orderId" value="CustomOrderId" />
