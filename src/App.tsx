@@ -190,7 +190,7 @@ function App() {
         {chatHistory.length === 0 ? (
           <div className="flex justify-center items-center h-full flex-col overflow-y-scroll">
             <img
-              src="light.png"
+              src="inner.png"
               alt="Niddam"
               className="mx-auto w-32  mb-4 mt-2"
             />
