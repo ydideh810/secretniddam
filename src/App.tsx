@@ -196,9 +196,7 @@ function App() {
               <DebugUI loadEngine={loadEngine} progress={progress} />
              <ModelsDropdown resetEngineAndChatHistory={resetEngineAndChatHistory} />
             <div className="max-w-2xl flex flex-col justify-center">
-              <h1 className="text-3xl font-medium  mb-8 leading-relaxed text-center text-gray-50">
-                You are now using Niddam
-              </h1>
+            
               <h2 className="text-base mb-4 prose text-gray-50">
                 Niddam is the ultimate fully private chatbot. Unlike
                 ChatGPT, the models available here run completely within your
