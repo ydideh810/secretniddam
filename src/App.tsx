@@ -194,6 +194,8 @@ function App() {
               alt="Niddam"
               className="mx-auto w-32  mb-4 mt-2"
             />
+              <DebugUI loadEngine={loadEngine} progress={progress} />
+             <ModelsDropdown resetEngineAndChatHistory={resetEngineAndChatHistory} />
             <div className="max-w-2xl flex flex-col justify-center">
               <h1 className="text-3xl font-medium  mb-8 leading-relaxed text-center text-gray-50">
                 You are now using Niddam
