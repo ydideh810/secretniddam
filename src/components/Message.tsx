@@ -14,7 +14,7 @@ function Message({ message }: { message: webllm.ChatCompletionMessageParam }) {
         <div className="border p-1 rounded-full text-gray-50">
           {message.role === "assistant" ? <FaHorseHead /> : <FaPerson />}
         </div>
-        <div className="font-bold">
+        <div className="font-bold text-gray-50">
           {message.role === "assistant"
             ? MODEL_DESCRIPTIONS[selectedModel].displayName
             : "You"}
