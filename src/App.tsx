@@ -182,8 +182,6 @@ function App() {
         <div>
           <ResetChatButton resetChat={resetChat} />
         </div>
-        <DebugUI loadEngine={loadEngine} progress={progress} />
-        <ModelsDropdown resetEngineAndChatHistory={resetEngineAndChatHistory} />
       </div>
 
       <div className="max-w-3xl mx-auto flex flex-col h-screen">
@@ -194,6 +192,7 @@ function App() {
               alt="Niddam"
               className="mx-auto w-32  mb-4 mt-2"
             />
+                      <ResetChatButton resetChat={resetChat} />
               <DebugUI loadEngine={loadEngine} progress={progress} />
              <ModelsDropdown resetEngineAndChatHistory={resetEngineAndChatHistory} />
             <div className="max-w-2xl flex flex-col justify-center">
