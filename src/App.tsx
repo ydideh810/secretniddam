@@ -198,7 +198,7 @@ function App() {
             <div className="max-w-2xl flex flex-col justify-center">
             
               <h2 className="text-base mb-4 prose text-gray-50">
-                Niddam is the ultimate fully private chatbot. Unlike
+                Niddam_yar is our entry-level chatbot. Unlike
                 ChatGPT, the models available here run completely within your
                 browser which means:
                 <ol>
@@ -209,8 +209,8 @@ function App() {
                   </li>
                 </ol>
                 <p className="text-base mb-4 prose text-gray-50">
-                  Note: the first message can take a while to process because
-                  the model needs to be fully downloaded to your computer. But
+                  Note: the first message takes a while to process since
+                  the model needs to be fully downloaded on your PC. But
                   on future visits, the model will load quickly
                   from the local storage on your computer.
                 </p>
