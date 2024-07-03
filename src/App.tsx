@@ -28,7 +28,7 @@ function App() {
   const chatHistory = useChatStore((state) => state.chatHistory);
   const setChatHistory = useChatStore((state) => state.setChatHistory);
 
-  const systemPrompt = "You're name is Niddam and you are a very helpful assistant.";
+  const systemPrompt = "Your name is Niddam and you are a very helpful assistant.";
   // Respond in markdown.
 
   const initProgressCallback = (report: webllm.InitProgressReport) => {
