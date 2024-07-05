@@ -9,8 +9,8 @@ function Message({ message }: { message: webllm.ChatCompletionMessageParam }) {
   const selectedModel = useChatStore((state) => state.selectedModel);
 
   return (
-    <div className="p-4 rounded-lg mt-2">
-      <div className="flex items-center gap-x-2">
+    <div className="p-4 rounded-lg mt-2 text-gray-50">
+      <div className="flex items-center gap-x-2 text-gray-50">
         <div className="border p-1 rounded-full text-gray-50">
           {message.role === "assistant" ? <FaHorseHead /> : <FaPerson />}
         </div>
